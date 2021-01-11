@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>Mustafa CAN</title>
+        <style>
+            #skill-table {
+                flex-basis: 0;
+                flex-grow: 1;
+            }
+
+            #skill-table li {
+                display: inline-block;
+            }
+
+            .bold {
+                font-weight: bold;
+            }
+
+            #header-name{
+                font-weight: 900;
+            }
+
+            .skill-category {
+                display: flex;
+                align-items: flex-start;
+            }
+
+            .skill-category-title {
+                width: 50%;
+            }
+
+            #header-role{
+                margin-top: -15px;
+            }
+
+            .progress{
+                margin: 1px;
+            }
+
+            a:link {
+                text-decoration: none;
+            }
+
+            #profile-photo{
+                /* float: left;
+                margin-left: -350px; */
+                float: right;
+            }
+
+            .badge-danger{
+                background-color: #ababab;
+            }
+
+            @media print {
+                #profile-photo{
+                    float: right;
+                    margin-left: 0px;
+                }
+                nav{
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body class="bg-light">
+
+        <!-- color palette : https://www.color-hex.com/color/f5f5f5 -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <!-- Navbar Button-->
+            <a class="navbar-brand" href="index.html">Mustafa CAN</a>
+            
+            <!-- Little screen navbar collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+    
+                <li class="nav-item active">
+                  <a class="nav-link" href="blog.html"><strong>Blog</strong></a>
+                </li>
+    
+                <li class="nav-item active">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="front-endsjs.html">Front-End JS</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="back-endcs.html">Back-End C#</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="back-endjs.html">Back-End Java</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div id="header" class="col-md-12">
+                <h1 id="header-name">Mustafa CAN</h1>
+                <h3 id="header-role">Software Engineer</h3>
+            </div>
+            <div id="profile-photo">
+                <img src="img/profile3-little.png" alt="no Photo" class="rounded">
+            </div>
+            <div class="row">
+                <div id="skills" >
+                    <div id="skills" class="col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 id="skills-header"><span class="badge badge-danger">Skills</span></h3>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="skill-category">
+                                    <h5 class="skill-category-title">Programming Languages</h5>
+                                    <ul id="skill-table" style="list-style-type: none;">
+                                        <li class="bold">Js 
+                                        </li>
+                                        <li class="bold">Java
+                                        </li>
+                                        <li class="bold">C#
+                                        </li>
+                                        <li>C
+                                        </li>
+                                        <li>Python
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                                <div class="skill-category">
+                                    <h5 class="skill-category-title">Development Frameworks</h5>
+                                    <ul id="skill-table" style="list-style-type: none;">
+                                        <li class="bold">Spring
+                                        </li>
+                                        <li class="bold">ReactJs
+                                        </li>
+                                        <li>.NET
+                                        </li>
+                                        <li class="bold">Hibernate
+                                        </li>
+                                        <li class="bold">Android
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                                <div class="skill-category">
+                                    <h5 class="skill-category-title">Databases</h5>
+                                    <ul id="skill-table" style="list-style-type: none;">
+                                        <li class="bold">MySQL
+                                        </li>
+                                        <li class="bold">MongoDB
+                                        </li>
+                                        <li class="bold">SQLite
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                                <div class="skill-category">
+                                    <h5 class="skill-category-title">Development Tools</h5>
+                                    <ul id="skill-table" style="list-style-type: none;">
+                                        <li class="bold">Maven
+                                        </li>
+                                        <li class="bold">Gradle
+                                        </li>
+                                        <li>Docker
+                                        </li>
+                                        <li class="bold">Git
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h5 class="skill-category-title">Other</h5>
+                                    <ul id="skill-table" style="list-style-type: none;">
+                                        <li>Apache Kafka
+                                        </li>
+                                        <li>Speech Recognition
+                                        </li>
+                                        <li class="bold">Unity
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div id="projects" class="col-md-8" style="font-size: large;">
+                    <h3 id="projects-name"><span class="badge badge-danger">Projects</span> </h3>
+                    <ul>
+                        <!-- Su arıtma Otomasyonu -->
+                        <li><strong>WATER TREATMENT STOCK AUTOMATION</strong></li>
+                        Arbitrary Project
+                        <br>
+                        <span class="badge badge-warning" style="float: left; margin-left: -80px;">2017</span>
+                        <p>While I was in university, I took this project from my friends
+                            family company. I made it with JavaEE, Hibernate and Swing</p>
+                            <a href="https://github.com/MustafaCQN/waterTreatmentOtomation">GitHub</a>
+                        <!-- Bitirme Tezi -->
+                        <li><strong>SPEECH RECOGNITION IN TURKISH</strong></li>
+                        Graduation Project
+                        <br>
+                        <span class="badge badge-warning" style="float: left; margin-left: -80px;">2019</span>
+                        <p>My graduation project was drawing algorithm diagrams with
+                            only speech (Turkish). I used JavaScript and GoJS in this
+                            project</p>
+                        <!-- Barkod Okuyucu -->
+                        <li><strong>BARCODE SCANNER FOR MAGAZINE SHOPS</strong></li>
+                        Internship Project
+                        <br>
+                        <span class="badge badge-warning" style="float: left; margin-left: -80px;">2019</span>
+                        <p>While making my internship in Italy, boss asked me to build
+                         a desktop app for magazine shops to keep track barcodes and save them.</p>
+                    </ul>
+
+                </div>
+                <div id="profile" class="col-md-4 col-sm-4" style="font-size: large;">
+                    <h3 id="profile-header"><span class="badge badge-danger">Profile</span></h3>
+                    <ul>
+                        <li><strong>Birthday & Place</strong></li>
+                        14 March 1997 - Istanbul Turkey
+                        <li><strong>Sex & Marital Status</strong></li>
+                        Male, Single
+                        <li><strong>Languages</strong></li>
+                        Native <strong>Turkish</strong>, Fluent <strong>English</strong>, Basic <strong>Italian</strong>
+                        <li><strong>Driving Licence</strong></li>
+                        B
+                        <li><strong>Address</strong></li>
+                        Istanbul / Turkey
+                        <li><strong>Phone</strong></li>
+                        <a class="badge badge-info" target="_blank" href="tel:+90545-783-1997">+90 545 783 1997</a>
+                        <li><strong>Mail</strong></li>
+                        <a class="badge badge-info" target="_blank" href = "mailto:mcqn14@gmail.com">mcqn14@gmail.com</a>
+                        <li><strong>Medias</strong></li>
+                        <a class="badge badge-info" target="_blank" href="https://www.linkedin.com/in/canmustafa">Linkedin</a>
+                        <a class="badge badge-info" target="_blank" href="https://github.com/MustafaCQN">GitHub</a>
+                        <a class="badge badge-info" target="_blank" href="https://medium.com/@mcqn14">Medium</a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="experience" class="col-md-12" style="font-size: large;">
+                    <h3 id="experience-name"><span class="badge badge-danger">Experience</span></h3>
+                    <ul>
+                        <li><strong>SOLVOYO | Software Engineer Intern / Istanbul - Turkey | July 2019 - September 2019</strong></li>
+                        <p>Used and developed back-end with C#, Docker (CI, CD), User Tests
+                            and Coverage, Learned and developed front-end with Java Script,
+                            React.Js, Regex (etc.), Learned and implemented teamwork and
+                            communication with teammates.</p>
+                        <li><strong>Futuro Digitale | Front-End Development Intern / Cosenza - Italy | October 2019 - January 2020</strong></li>
+                        <p>Developed Php based web applications, Desktop applications with C#
+                            and Teach English to the Italian local folks. Improved teamwork and
+                            communication with teammates and taste the local food and share
+                            the experience with other people</p>
+                        <li><strong>Huawei | Software Engineer / Istanbul - Turkey | April 2020 - Present</strong></li>
+                        <p>I am working as Developer Technical Support Engineer at Huawei. I support Content Providers to integrate
+                            Huawei Mobile Service (HMS) ecosystem while developing individual projects, writing Medium articles, helping colleagues,
+                            documenting and contributing to HMS ecosystem. 
+                        </p>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div id="education" class="col-md-12" style="font-size: large;">
+                <h3 id="education-name"><span class="badge badge-danger">Education</span></h3>
+                <ul>
+                    <li><strong>Suleyman Demirel University, Isparta / Turkey</strong></li>
+                    September 2015 - June 2019
+                    <br>
+                    Computer Engineering
+                </ul>
+            </div>
+        </div>
+        <div class="row" style="height: 200px;"></div>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

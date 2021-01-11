@@ -1,0 +1,2 @@
+1-) sol üst tarafa profil fotonu koy.
+2-) bootstrap cheatsheeti kullanarak portfolyonu güzelleştir
